@@ -1,0 +1,32 @@
+.container {
+	pointer-events: none;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+}
+
+.clickable {
+	pointer-events: all;
+}
+
+.center_H {
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.center_V {
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.center_HV {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
