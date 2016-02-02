@@ -11,7 +11,7 @@ render: function (output) { // Initial html setup
 	"</div>";
 },
 
-afterRender: function(domEl) { // Widget Logic here
+afterRender: function(domEl) { // Widget Logic here.
 
 },
 
