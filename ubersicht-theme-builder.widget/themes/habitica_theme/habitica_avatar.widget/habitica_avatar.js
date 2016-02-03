@@ -1,7 +1,14 @@
-root: 'template.widget/',
-refreshFrequency: false, // in ms or '2 days', '1d', '10h', '2.5 hrs', '2h', '1m', or '5s'.
+command: "",
+userID: "",
+refreshFrequency: '5h', // in ms or '2 days', '1d', '10h', '2.5 hrs', '2h', '1m', or '5s'.
+
 
 render: function (output) { // Initial html setup
+	//"https://habitica.com/export/avatar-" + this.userID + ".png"
+	$.getJSON("ubersicht-theme-builder.widget/themes/habitica_theme/habitica_config.json", function(json) {
+	    console.log(json); // this will show the info it in firebug console
+	});
+
 	var dummyQuery = Date.now();
 
 	return "<div class='container'>" +
