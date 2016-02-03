@@ -1,13 +1,9 @@
-root: 'template.widget/',
 command: 'echo Hello World!', // shell command, might need escaped characters
 refreshFrequency: false, // in ms or '2 days', '1d', '10h', '2.5 hrs', '2h', '1m', or '5s'.
 
 render: function (output) { // Initial html setup
-	var dummyQuery = Date.now();
-
 	return "<div class='container'>" +
 		"<div class='glow_lt_blue center_HV'><h1 class='txt_white'>" + output + "</h1></div>" +
-		"<image src='https://habitica-assets.s3.amazonaws.com/avatars%2Fb0a89939-23da-4f3a-81d0-7aa3ce7e55b5.png?dummy=" + dummyQuery + "' class='center_V' />" +
 	"</div>";
 },
 
