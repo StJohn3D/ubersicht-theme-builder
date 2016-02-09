@@ -1,2 +1,2 @@
 # ubersicht-theme-builder
-An Übersicht project structure to allow for rapid widget prototyping and code reuse. 
+An Übersicht framework for rapid widget prototyping and code reuse.
