@@ -21,7 +21,7 @@ render: function (output) { // Initial html setup
 	// "</div>";
 
 	return "<div class='container'>" +
-		"<div class='glow_lt_blue center_HV tight'>" +
+		"<div class='glow_lt_blue center_V tight'>" +
 			"<div class='syfy_1'>" +
 				"<div class='content'>" +
 					"<h1 class='txt_white tight'>" + output + "</h1>" +
