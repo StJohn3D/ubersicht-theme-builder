@@ -1,0 +1,104 @@
+.theme {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	position: absolute;
+}
+
+.TL-s {
+	width: 50px;
+	height: 50px;
+	top: -50px;
+	left: -50px;
+}
+
+.T-xs {
+	width: 100%;
+	height: 25px;
+	top: -25px;
+	left: 0;
+}
+
+.TL-xs {
+	width: 25px;
+	height: 25px;
+	top: -25px;
+	left: -25px;
+}
+
+.TR-xs {
+	width: 25px;
+	height: 25px;
+	top: -25px;
+	right: -25px;
+	transform: rotate(90deg);
+}
+
+.L-xs {
+	width: 25px;
+	height: 100%;
+	top: 0;
+	left: -25px;
+}
+
+.R-xs {
+	width: 25px;
+	height: 100%;
+	top: 0;
+	right: -25px;
+}
+
+.B-xs {
+	width: 100%;
+	height: 25px;
+	bottom: -25px;
+	left: 0;
+}
+
+.BL-xs {
+	width: 25px;
+	height: 25px;
+	bottom: -25px;
+	left: -25px;
+}
+
+.BR-xs {
+	width: 25px;
+	height: 25px;
+	bottom: -25px;
+	right: -25px;
+}
+
+.tight {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.syfy_1 {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  border-width: 20px;
+  border-color: red;
+  background: blue;
+  transform:  skewX(-20deg);
+} .content {
+	transform:  skewX(20deg);
+}
+
+.blur-bg-10 }
+	-webkit-backdrop-filter: blur(10px);
+}
+
+.debug-r {
+	background-color: red;
+}
+
+.debug-b {
+	background-color: blue;
+}
+
+.debug-b {
+	background-color: black;
+}
