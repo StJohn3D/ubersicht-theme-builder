@@ -92,7 +92,23 @@
 	/*transform:  skewX(20deg);*/
 }
 
-.blur-bg-10 }
+.syfy-1-corners {
+	padding: 30px;
+	background-image: url('./images/syfy_TL.png'), url('./images/syfy_TR.png'), url('./images/syfy_BL.png'), url('./images/syfy_BR.png');
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: top left, top right, bottom left, bottom right;
+	background-size: 30px, 30px, 30px, 30px;
+}
+
+.syfy-1-content {
+	padding: 30px;
+	background-image: url('./images/syfy_T.png'), url('./images/syfy_L.png'), url('./images/syfy_R.png'), url('./images/syfy_B.png');
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: top 10px center, left, right, bottom;
+	background-size: 100% 30px, 30px 100%, 30px 100%, 100% 30px;
+}
+
+.blur-bg-10 {
 	-webkit-backdrop-filter: blur(10px);
 }
 

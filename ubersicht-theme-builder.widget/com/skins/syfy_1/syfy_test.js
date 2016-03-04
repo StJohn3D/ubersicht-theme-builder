@@ -20,12 +20,23 @@ render: function (output) { // Initial html setup
 	// 	"</div>" +
 	// "</div>";
 
+	// return "<div class='container'>" +
+	// 	"<div class='glow_lt_blue center_V tight'>" +
+	// 		"<div class='syfy_1'>" +
+	// 			"<div class='content'>" +
+	// 				"<h1 class='txt_white tight'>" + output + "</h1>" +
+	// 			"</div>" +
+	// 		"</div>" +
+	// 	"</div>" +
+	// "</div>";
+
 	return "<div class='container'>" +
-		"<div class='glow_lt_blue center_V tight'>" +
-			"<div class='syfy_1'>" +
-				"<div class='content'>" +
-					"<h1 class='txt_white tight'>" + output + "</h1>" +
-				"</div>" +
+		"<div class='glow_lt_blue center_V theme syfy-1-corners'>" +
+			"<div class='syfy-1-content'>" +
+				"<h1 class='txt_white tight'>" + output + "</h1>" +
+				"<h1 class='txt_white tight'>" + output + "</h1>" +
+				"<h1 class='txt_white tight'>" + output + "</h1>" +
+				"<h1 class='txt_white tight'>" + output + "</h1>" +
 			"</div>" +
 		"</div>" +
 	"</div>";
