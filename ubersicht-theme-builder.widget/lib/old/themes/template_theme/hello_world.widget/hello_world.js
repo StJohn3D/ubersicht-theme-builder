@@ -1,4 +1,4 @@
-command: 'echo -', // shell command, might need escaped characters
+command: 'echo ng pw is 123', // shell command, might need escaped characters
 refreshFrequency: false, // in ms or '2 days', '1d', '10h', '2.5 hrs', '2h', '1m', or '5s'.
 
 render: function (output) { // Initial html setup

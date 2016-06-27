@@ -5,7 +5,7 @@ render: function (output) { // Initial html setup
 	var thisRoot = "ubersicht-theme-builder.widget/com/skins/syfy_1/";
 	$('head').append('<link rel="stylesheet" type="text/css" href="' + thisRoot + 'syfy_1.css">');
 
-	output = "The outside edge decoration will automatgically fit any size content!"
+	output = "The outside edge decoration will automatgically fit any size content!";
 	// return "<div class='container'>" +
 	// 	"<div class='glow_lt_blue center_HV tight blur-bg-10'>" +
 	// 		"<h1 class='txt_white tight'>" + output + "</h1>" +
