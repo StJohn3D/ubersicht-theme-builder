@@ -1,19 +1,27 @@
 command: false
-
+goal: require('./src/goal')
 refreshFrequency: 83
+
+boundsSet: false
 
 render: (output) ->
 	x = 20
 	y = 20
-	"""
+	if !this.boundsSet
+		this.boundsSet = true
+		this.goal.setBounds(window.innerWidth, window.innerHeight)
+	return """
 	<div class='beautiful-mind' style='left:#{x}px; top:#{y}px;'>
 		<div class='beautiful-mind-eye'></div>
 	</div>
 	"""
 
 update: (output, domeEL) ->
-	y = 20 + ((Math.sin( Date.now() / 200 ) / 2 + 0.5) * 5)
+	newPos = this.goal.getNextStep();
+	x = newPos.x
+	y = newPos.y
 	$(domeEL).find('.beautiful-mind').css top: y + 'px'
+	$(domeEL).find('.beautiful-mind').css left: x + 'px'
 
 style: """
 	.beautiful-mind
